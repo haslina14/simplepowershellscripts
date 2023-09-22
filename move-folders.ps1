@@ -1,4 +1,4 @@
-$FileList = Get-Content -Path .\move-batch1.txt
+$FileList = Get-Content -Path .\folder-list.txt
 
 foreach ($f in $FileList){
 	mkdir $f
